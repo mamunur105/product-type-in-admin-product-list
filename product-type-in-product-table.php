@@ -29,7 +29,7 @@ function action_manage_product_custom_column( $column, $postid ) {
 		// Get type
 		$product_type = $product->get_type();
 		// Output
-		echo '&nbsp;<span> &ndash; ' .  ucfirst( $product_type ) . '</span>';
+		echo '&nbsp;<span> &ndash; <strong>' .  ucfirst( $product_type ) . '</strong></span>';
 	}
 }
 add_action( 'manage_product_posts_custom_column', 'action_manage_product_custom_column', 20, 2 );
