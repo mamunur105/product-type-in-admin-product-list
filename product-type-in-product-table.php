@@ -21,15 +21,20 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'This script cannot be accessed directly.' );
 }
-
-function action_manage_product_custom_column( $column, $postid ) {
+/**
+ * @param $column
+ * @param $postid
+ *
+ * @return void
+ */
+function ptiplt_action_manage_product_custom_column( $column, $post_id ) {
 	if ( $column == 'name' ) {
 		// Get product
-		$product = wc_get_product( $postid );
+		$product = wc_get_product( $post_id );
 		// Get type
 		$product_type = $product->get_type();
 		// Output
 		echo '&nbsp;<span> &ndash; <strong>' .  ucfirst( $product_type ) . '</strong></span>';
 	}
 }
-add_action( 'manage_product_posts_custom_column', 'action_manage_product_custom_column', 20, 2 );
+add_action( 'manage_product_posts_custom_column', 'ptiplt_action_manage_product_custom_column', 20, 2 );
