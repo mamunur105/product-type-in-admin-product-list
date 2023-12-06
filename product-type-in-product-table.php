@@ -1,19 +1,17 @@
 <?php
 /**
  * @wordpress-plugin
- * Plugin Name:       Show Product type in product list table
+ * Plugin Name:       Show Product type in product table
  * Plugin URI:        https://wordpress.org/plugins/product-type-in-product-table
- * Description:       Integrate custom post type with woocommerce. Sell Any Kind Of Custom Post
+ * Description:       The name of the product type is written after the name of the product in the admin area where you can see all the products.
  * Version:           1.0.0
- * Author:            Tiny Solutions
- * Author URI:        https://www.wptinysolutions.com/
+ * Author:            Mamunur Rashid
+ * Author URI:        https://profiles.wordpress.org/mamunur105/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Tested up to:      6.4
- * WC requires at least:3.2
- * WC tested up to:     8.3.0
  * Text Domain:       ptiplt
  * Domain Path:       /languages
- *
- * @package TinySolutions\ptiplt
  */
 
 
@@ -37,4 +35,8 @@ function ptiplt_action_manage_product_custom_column( $column, $post_id ) {
 		echo '&nbsp;<span> &ndash; <strong>' .  ucfirst( $product_type ) . '</strong></span>';
 	}
 }
-add_action( 'manage_product_posts_custom_column', 'ptiplt_action_manage_product_custom_column', 20, 2 );
+
+// Initiate Class when plugin is loaded
+add_action( 'plugins_loaded', function (){
+	add_action( 'manage_product_posts_custom_column', 'ptiplt_action_manage_product_custom_column', 20, 2 );
+} );
