@@ -32,7 +32,7 @@ function ptiplt_action_manage_product_custom_column( $column, $post_id ) {
 		// Get type
 		$product_type = $product->get_type();
 		// Output
-		echo '&nbsp;<span> &ndash; <strong>' .  ucfirst( $product_type ) . '</strong></span>';
+		echo '<span> &ndash; <strong>' .  ucfirst( $product_type ) .' '. esc_html__('Product', 'ptiplt' ).'</strong></span>';
 	}
 }
 
