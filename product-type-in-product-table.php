@@ -4,7 +4,7 @@
  * Plugin Name:       Show Product type in product table
  * Plugin URI:        https://wordpress.org/plugins/product-type-in-product-table
  * Description:       The name of the product type is written after the name of the product in the admin area where you can see all the products.
- * Version:           1.0.0
+ * Version:           0.0.1
  * Author:            Mamunur Rashid
  * Author URI:        https://profiles.wordpress.org/mamunur105/
  * License:           GPL v2 or later
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Define cptwooint Constant.
  */
 
-const PTIPLT_VERSION = '1.0.0';
+const PTIPLT_VERSION = '0.0.1';
 
 const PTIPLT_FILE = __FILE__;
 
