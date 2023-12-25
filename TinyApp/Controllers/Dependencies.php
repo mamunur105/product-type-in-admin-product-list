@@ -22,7 +22,7 @@ class Dependencies {
 	/**
 	 * PHP Version
 	 */
-	const MINIMUM_PHP_VERSION = '8.4';
+	const MINIMUM_PHP_VERSION = '7.4';
 	/**
 	 * Missing Dependencies.
 	 *
