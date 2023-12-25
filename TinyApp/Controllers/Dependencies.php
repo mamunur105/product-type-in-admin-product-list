@@ -99,7 +99,7 @@ class Dependencies {
 			self::MINIMUM_PHP_VERSION
 		);
 		?>
-		<div class="notice notice-warning"><p> <?php echo wp_kses_post( $message ); ?> </p></div>
+		<div class="notice notice-warning error notice_error"><p> <?php echo wp_kses_post( $message ); ?> </p></div>
 		<?php
 	}
 
