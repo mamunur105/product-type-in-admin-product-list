@@ -14,29 +14,29 @@
  * Domain Path:       /languages
  */
 
-
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'This script cannot be accessed directly.' );
 }
-/**
- * @param $column
- * @param $postid
- *
- * @return void
- */
-function ptiplt_action_manage_product_custom_column( $column, $post_id ) {
-	if ( $column == 'name' ) {
-		// Get product
-		$product = wc_get_product( $post_id );
-		// Get type
-		$product_type = $product->get_type();
-		// Output
-		echo '<span> &ndash; <strong>' .  ucfirst( $product_type ) .' '. esc_html__('Product', 'ptiplt' ).'</strong></span>';
-	}
-}
 
-// Initiate Class when plugin is loaded
-add_action( 'plugins_loaded', function (){
-	add_action( 'manage_product_posts_custom_column', 'ptiplt_action_manage_product_custom_column', 20, 2 );
-} );
+/**
+ * Define cptwooint Constant.
+ */
+
+const PTIPLT_VERSION = '1.0.0';
+
+const PTIPLT_FILE = __FILE__;
+
+define( 'PTIPLT_BASENAME', plugin_basename( PTIPLT_FILE ) );
+
+define( 'PTIPLT_URL', plugins_url( '', PTIPLT_FILE ) );
+
+define( 'PTIPLT_ABSPATH', dirname( PTIPLT_FILE ) );
+
+define( 'PTIPLT_PATH', plugin_dir_path( PTIPLT_FILE ) );
+
+/**
+ * App Init.
+ */
+require_once 'TinyApp/app.php';
+
