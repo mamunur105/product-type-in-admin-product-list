@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Define cptwooint Constant.
+ * Define ptiplt Constant.
  */
 
 const PTIPLT_VERSION = '0.0.1';

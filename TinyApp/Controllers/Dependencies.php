@@ -114,7 +114,7 @@ class Dependencies {
 			if ( count( $this->missing ) === $counter ) {
 				$sep = '';
 			} elseif ( count( $this->missing ) - 1 === $counter ) {
-				$sep = ' ' . esc_html__( 'and', 'cptwooint' ) . ' ';
+				$sep = ' ' . esc_html__( 'and', 'ptiplt' ) . ' ';
 			} else {
 				$sep = ', ';
 			}
