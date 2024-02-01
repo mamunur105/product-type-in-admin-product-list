@@ -18,7 +18,7 @@ class Dependencies {
 	 */
 	use SingletonTrait;
 
-	const PLUGIN_NAME = 'Show Product type in product table';
+	const PLUGIN_NAME = 'Product type in the product table';
 	/**
 	 * PHP Version
 	 */
