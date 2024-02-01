@@ -2,7 +2,7 @@
 /**
  * Main FilterHooks class.
  *
- * @package TinySolutions\WM
+ * @package PTIPLT\WM
  */
 
 namespace PTIPLT\Hooks;
