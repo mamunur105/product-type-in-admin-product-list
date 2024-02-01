@@ -23,9 +23,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Define ptiplt Constant.
  */
 
-const PTIPLT_VERSION = '0.0.1';
+define( 'PTIPLT_VERSION', '0.0.1' );
 
-const PTIPLT_FILE = __FILE__;
+define( 'PTIPLT_FILE', __FILE__ );
 
 define( 'PTIPLT_BASENAME', plugin_basename( PTIPLT_FILE ) );
 

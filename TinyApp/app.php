@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once PTIPLT_PATH . 'vendor/autoload.php';
 
-use TinySolutions\ptiplt\Traits\SingletonTrait;
-use TinySolutions\ptiplt\Controllers\Dependencies;
-use TinySolutions\ptiplt\Hooks\FilterHooks;
+use PTIPLT\Traits\SingletonTrait;
+use PTIPLT\Controllers\Dependencies;
+use PTIPLT\Hooks\FilterHooks;
 
 if ( ! class_exists( Ptiplt::class ) ) {
 	/**

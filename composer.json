@@ -2,7 +2,7 @@
     "name": "mamunurrashid/product-type-in-the-table",
     "autoload": {
         "psr-4": {
-          "TinySolutions\\ptiplt\\": "TinyApp"
+          "PTIPLT\\": "TinyApp"
         }
     },
     "authors": [

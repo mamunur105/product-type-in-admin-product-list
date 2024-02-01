@@ -1,8 +1,8 @@
 <?php
 
-namespace TinySolutions\ptiplt\Controllers;
+namespace PTIPLT\Controllers;
 
-use TinySolutions\ptiplt\Traits\SingletonTrait;
+use PTIPLT\Traits\SingletonTrait;
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -119,7 +119,7 @@ class Dependencies {
 				$sep = ', ';
 			}
 			?>
-			<div class="cptwint-wrapper error notice_error">
+			<div class="ptiplt-wrapper error notice_error">
 				<p>
 					<?php echo wp_kses_post( $plugin['message'] ); ?>
 				</p>

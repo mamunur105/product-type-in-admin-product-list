@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInita4ca8500c5dab46ed291cb98475101f6
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        'P' => 
         array (
-            'TinySolutions\\ptiplt\\' => 21,
+            'PTIPLT\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'TinySolutions\\ptiplt\\' => 
+        'PTIPLT\\' => 
         array (
             0 => __DIR__ . '/../..' . '/TinyApp',
         ),
@@ -22,9 +22,9 @@ class ComposerStaticInita4ca8500c5dab46ed291cb98475101f6
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'TinySolutions\\ptiplt\\Controllers\\Dependencies' => __DIR__ . '/../..' . '/TinyApp/Controllers/Dependencies.php',
-        'TinySolutions\\ptiplt\\Hooks\\FilterHooks' => __DIR__ . '/../..' . '/TinyApp/Hooks/FilterHooks.php',
-        'TinySolutions\\ptiplt\\Traits\\SingletonTrait' => __DIR__ . '/../..' . '/TinyApp/Traits/SingletonTrait.php',
+        'PTIPLT\\Controllers\\Dependencies' => __DIR__ . '/../..' . '/TinyApp/Controllers/Dependencies.php',
+        'PTIPLT\\Hooks\\FilterHooks' => __DIR__ . '/../..' . '/TinyApp/Hooks/FilterHooks.php',
+        'PTIPLT\\Traits\\SingletonTrait' => __DIR__ . '/../..' . '/TinyApp/Traits/SingletonTrait.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

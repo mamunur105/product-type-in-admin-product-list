@@ -3,7 +3,7 @@
  *
  */
 
-namespace TinySolutions\ptiplt\Traits;
+namespace PTIPLT\Traits;
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {

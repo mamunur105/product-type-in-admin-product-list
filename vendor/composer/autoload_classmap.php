@@ -7,7 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'TinySolutions\\ptiplt\\Controllers\\Dependencies' => $baseDir . '/TinyApp/Controllers/Dependencies.php',
-    'TinySolutions\\ptiplt\\Hooks\\FilterHooks' => $baseDir . '/TinyApp/Hooks/FilterHooks.php',
-    'TinySolutions\\ptiplt\\Traits\\SingletonTrait' => $baseDir . '/TinyApp/Traits/SingletonTrait.php',
+    'PTIPLT\\Controllers\\Dependencies' => $baseDir . '/TinyApp/Controllers/Dependencies.php',
+    'PTIPLT\\Hooks\\FilterHooks' => $baseDir . '/TinyApp/Hooks/FilterHooks.php',
+    'PTIPLT\\Traits\\SingletonTrait' => $baseDir . '/TinyApp/Traits/SingletonTrait.php',
 );

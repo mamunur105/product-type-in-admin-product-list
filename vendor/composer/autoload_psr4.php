@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'TinySolutions\\ptiplt\\' => array($baseDir . '/TinyApp'),
+    'PTIPLT\\' => array($baseDir . '/TinyApp'),
 );

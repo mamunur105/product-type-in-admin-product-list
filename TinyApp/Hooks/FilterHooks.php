@@ -5,11 +5,11 @@
  * @package TinySolutions\WM
  */
 
-namespace TinySolutions\ptiplt\Hooks;
+namespace PTIPLT\Hooks;
 
 defined( 'ABSPATH' ) || exit();
 
-use TinySolutions\ptiplt\Traits\SingletonTrait;
+use PTIPLT\Traits\SingletonTrait;
 
 /**
  * Main FilterHooks class.
