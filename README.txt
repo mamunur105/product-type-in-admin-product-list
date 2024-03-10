@@ -1,4 +1,4 @@
-=== Show Product type in product table ===
+=== Show Product type in the product table ===
 Contributors: mamunur105
 Tags: Show Product type in product list table
 Requires at least: 6.0
@@ -13,6 +13,8 @@ The name of the product type is written after the name of the product in the adm
 == Description ==
 
 The name of the product type is written after the name of the product in the admin area where you can see all the products.
+
+👉 [Official GitHub repository](https://github.com/mamunur105/product-type-in-the-table). 👈
 
 == Changelog ==
 
