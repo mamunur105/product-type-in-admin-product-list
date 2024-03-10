@@ -4,7 +4,7 @@
  * Plugin Name:       Product type in the product table
  * Plugin URI:        https://wordpress.org/plugins/product-type-in-the-table
  * Description:       The name of the product type is written after the name of the product in the admin area where you can see all the products.
- * Version:           0.0.3
+ * Version:           1.0.0
  * Author:            Mamunur Rashid
  * Author URI:        https://profiles.wordpress.org/mamunur105/
  * License:           GPL v2 or later
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Define ptiplt Constant.
  */
 
-define( 'PTIPLT_VERSION', '0.0.3' );
+define( 'PTIPLT_VERSION', '1.0.0' );
 
 define( 'PTIPLT_FILE', __FILE__ );
 

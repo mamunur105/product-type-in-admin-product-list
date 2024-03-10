@@ -3,7 +3,7 @@
         'name' => 'mamunurrashid/product-type-in-the-table',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '83204d01647a143fc848fb58fa0a35e79bb9d898',
+        'reference' => 'a03a12d97beb85fdb3ce543432215c2145d9f127',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'mamunurrashid/product-type-in-the-table' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '83204d01647a143fc848fb58fa0a35e79bb9d898',
+            'reference' => 'a03a12d97beb85fdb3ce543432215c2145d9f127',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
