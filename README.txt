@@ -1,6 +1,6 @@
 === Show Product type in the product table ===
 Contributors: mamunur105
-Tags: Show Product type in product list table
+Tags: Product Type, Display Product Type in Table
 Requires at least: 6.0
 Tested up to: 6.4
 Stable tag: 1.0.0
