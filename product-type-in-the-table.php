@@ -1,7 +1,7 @@
 <?php
 /**
  * @wordpress-plugin
- * Plugin Name:       Highlighting Product Types - Product type in the product table
+ * Plugin Name:       Product type in the product table
  * Plugin URI:        https://wordpress.org/plugins/product-type-in-the-table
  * Description:       The name of the product type is written after the name of the product in the admin area where you can see all the products.
  * Version:           1.0.0
