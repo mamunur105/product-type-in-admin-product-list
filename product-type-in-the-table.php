@@ -12,7 +12,6 @@
  * Tested up to:      6.4
  * Text Domain:       ptiplt
  * Domain Path:       /languages
- * Requires Plugins: woocommerce
  */
 
 // Do not allow directly accessing this file.
